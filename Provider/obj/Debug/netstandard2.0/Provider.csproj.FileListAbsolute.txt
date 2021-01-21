@@ -1,0 +1,9 @@
+C:\Users\PC_Agne\source\repos\Programa\Provider\bin\Debug\netstandard2.0\Provider.deps.json
+C:\Users\PC_Agne\source\repos\Programa\Provider\bin\Debug\netstandard2.0\Provider.dll
+C:\Users\PC_Agne\source\repos\Programa\Provider\bin\Debug\netstandard2.0\Provider.pdb
+C:\Users\PC_Agne\source\repos\Programa\Provider\obj\Debug\netstandard2.0\Provider.csprojAssemblyReference.cache
+C:\Users\PC_Agne\source\repos\Programa\Provider\obj\Debug\netstandard2.0\Provider.AssemblyInfoInputs.cache
+C:\Users\PC_Agne\source\repos\Programa\Provider\obj\Debug\netstandard2.0\Provider.AssemblyInfo.cs
+C:\Users\PC_Agne\source\repos\Programa\Provider\obj\Debug\netstandard2.0\Provider.csproj.CoreCompileInputs.cache
+C:\Users\PC_Agne\source\repos\Programa\Provider\obj\Debug\netstandard2.0\Provider.dll
+C:\Users\PC_Agne\source\repos\Programa\Provider\obj\Debug\netstandard2.0\Provider.pdb

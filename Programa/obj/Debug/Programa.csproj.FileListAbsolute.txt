@@ -1,0 +1,9 @@
+C:\Users\PC_Agne\source\repos\Programa\Programa\bin\Debug\Programa.exe.config
+C:\Users\PC_Agne\source\repos\Programa\Programa\bin\Debug\Programa.exe
+C:\Users\PC_Agne\source\repos\Programa\Programa\bin\Debug\Programa.pdb
+C:\Users\PC_Agne\source\repos\Programa\Programa\obj\Debug\Programa.csprojAssemblyReference.cache
+C:\Users\PC_Agne\source\repos\Programa\Programa\obj\Debug\Programa.Properties.Resources.resources
+C:\Users\PC_Agne\source\repos\Programa\Programa\obj\Debug\Programa.csproj.GenerateResource.cache
+C:\Users\PC_Agne\source\repos\Programa\Programa\obj\Debug\Programa.csproj.CoreCompileInputs.cache
+C:\Users\PC_Agne\source\repos\Programa\Programa\obj\Debug\Programa.exe
+C:\Users\PC_Agne\source\repos\Programa\Programa\obj\Debug\Programa.pdb
