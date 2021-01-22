@@ -94,20 +94,7 @@ namespace MyProgram.Provider
             url.Append("images/search?category_ids=");
             if (model.categoryId != null)
             {
-                if (model.categoryId == "boxes")
-                    url.Append(5);
-                if (model.categoryId == "clothes")
-                    url.Append(15);
-                if (model.categoryId == "hats")
-                    url.Append(1);
-                if (model.categoryId == "sinks")
-                    url.Append(14);
-                if (model.categoryId == "space")
-                    url.Append(2);
-                if (model.categoryId == "sunglasses")
-                    url.Append(4);
-                if (model.categoryId == "ties")
-                    url.Append(7);
+                    url.Append(model.categoryId);
             }
             return url.ToString();
         }

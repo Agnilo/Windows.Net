@@ -21,20 +21,24 @@ namespace HttpCat
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var SelectedItem = textBox1.Text;
-
-            if (SelectedItem != "")
+            if (listView1.SelectedItems.Count > 0)
             {
-                var modal = new SearchCategoryModal
+                var SelectedItem = listView1.SelectedItems[0].SubItems[0].Text;
+
+                if (SelectedItem != "")
                 {
-                    categoryId = SelectedItem
-                };
+                    var modal = new SearchCategoryModal
+                    {
+                        categoryId = SelectedItem
+                    };
 
-                var collector = new ApiHelper();
-                var data = collector.GetCategory(modal);
+                    var collector = new ApiHelper();
+                    var data = collector.GetCategory(modal);
 
-                pictureBox1.ImageLocation = data[0].url;
-            }
+                    pictureBox1.ImageLocation = data[0].url;
+                }
+                
+            }else MessageBox.Show("Select category in the list!");
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -42,9 +46,9 @@ namespace HttpCat
             if (listView1.SelectedItems.Count > 0)
             {
                 var item = listView1.SelectedItems[0];
-                textBox1.Text = item.SubItems[0].Text;
-                
+                textBox1.Text = item.SubItems[1].Text;
             }
+
         }
 
         private void CategoriesForm_Load(object sender, EventArgs e)
@@ -52,10 +56,12 @@ namespace HttpCat
             var listViewItem = ApiHelper.GetCategories();
             foreach (var c in listViewItem)
             {
-                var item = new ListViewItem(c.name);
+                var item = new ListViewItem(new[] { c.id, c.name });
                 item.Tag = c;
                 listView1.Items.Add(item);
             }
         }
+
+
     }
 }

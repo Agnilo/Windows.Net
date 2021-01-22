@@ -27,7 +27,7 @@ namespace UnitTest
                 {
                     new Categories {
                         name="ties",
-                        id=7
+                        id="7"
                     }
                 }
             };

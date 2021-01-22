@@ -51,12 +51,13 @@ namespace MyProgram.Provider
 
     public class SearchCategoryModal
     {
+        public string categoryName { get; set; }
         public string categoryId { get; set; }
     }
 
     public class Categories
     {
-        public int id { get; set; }
+        public string id { get; set; }
         public string name { get; set; }
     }
 

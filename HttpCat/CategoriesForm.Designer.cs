@@ -37,6 +37,7 @@ namespace HttpCat
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,15 +83,17 @@ namespace HttpCat
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1});
+            this.columnHeader1,
+            this.columnHeader2});
             this.listView1.Font = new System.Drawing.Font("Bookman Old Style", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(186)));
+            this.listView1.FullRowSelect = true;
             this.listView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(12, 12);
             this.listView1.MultiSelect = false;
             this.listView1.Name = "listView1";
             this.listView1.Scrollable = false;
-            this.listView1.Size = new System.Drawing.Size(152, 196);
+            this.listView1.Size = new System.Drawing.Size(161, 196);
             this.listView1.TabIndex = 5;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -98,8 +101,8 @@ namespace HttpCat
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "Categories:";
-            this.columnHeader1.Width = 137;
+            this.columnHeader1.Text = "Select";
+            this.columnHeader1.Width = 53;
             // 
             // label1
             // 
@@ -108,6 +111,11 @@ namespace HttpCat
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 6;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "categorie:";
+            this.columnHeader2.Width = 88;
             // 
             // CategoriesForm
             // 
@@ -140,5 +148,6 @@ namespace HttpCat
         private System.Windows.Forms.ListView listView1;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
     }
 }
